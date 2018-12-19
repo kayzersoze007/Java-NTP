@@ -1,5 +1,5 @@
 import java.util.Scanner;
-
+//İki arac arasi mesafenin bulunmasi
 public class Hafta3 {
 
 	public static void main(String[] args) {
