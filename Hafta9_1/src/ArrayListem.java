@@ -13,7 +13,7 @@
 		}
  
  */
-
+import java.util.Comparator;
 import java.util.*;
 
 public class ArrayListem {
@@ -48,7 +48,13 @@ public class ArrayListem {
 		else {
 			System.out.println("Aranan Eleman yok");
 		}
+		Collections.sort(listem);
+		//Sıralama (A-->Z)
 		
+		Collections.sort(listem, Collections.reverseOrder()); 
+		//Sıralama (Z--> A)
+		
+		//listem.sort(listem, String listem2 = new String());
 		listem.remove(4); //Verilen indexteki degeri siler
 		System.out.println(listem);
 		
